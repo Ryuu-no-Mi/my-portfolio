@@ -7,7 +7,7 @@ export default function Projects() {
     const { projects } = content[lang];
 
     return (
-        <section className="py-10">
+        <section id="projects" className="py-10">
             <h2 className="text-3xl font-semibold text-blue-400 text-center mb-8">
                 {projects.title}
             </h2>
@@ -22,7 +22,7 @@ export default function Projects() {
                         </h3>
                         <p className="text-gray-300 mb-3">{p.desc}</p>
                         <p className="text-sm text-gray-400 mb-4">
-                            <strong>Tech:</strong> {p.tech}
+                            <strong>Tech:</strong> {p.tech.join(", ")}
                         </p>
                         <a
                             href={p.link}
