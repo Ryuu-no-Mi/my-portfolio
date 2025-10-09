@@ -18,13 +18,13 @@ export default function Projects() {
                         className="bg-gray-800 p-6 rounded-2xl shadow-md hover:shadow-blue-500/20 hover:-translate-y-1 transition-all"
                     >
                         {/* Imagen del proyecto */}
-                        {p.img && (
+                        {/* {p.img && (
                             <img
                                 src={p.img}
                                 alt={p.name}
                                 className="w-full h-48 object-cover mb-4"
                             />
-                        )}
+                        )} */}
                         <h3 className="text-2xl font-bold text-blue-400 mb-2">
                             {p.name}
                         </h3>
