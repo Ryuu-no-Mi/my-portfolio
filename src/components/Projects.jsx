@@ -17,13 +17,22 @@ export default function Projects() {
                         key={i}
                         className="bg-gray-800 p-6 rounded-2xl shadow-md hover:shadow-blue-500/20 hover:-translate-y-1 transition-all"
                     >
+                        {/* Imagen del proyecto */}
+                        {p.img && (
+                            <img
+                                src={p.img}
+                                alt={p.name}
+                                className="w-full h-48 object-cover mb-4"
+                            />
+                        )}
                         <h3 className="text-2xl font-bold text-blue-400 mb-2">
                             {p.name}
                         </h3>
                         <p className="text-gray-300 mb-3">{p.desc}</p>
-                        <p className="text-sm text-gray-400 mb-4">
+                        <p className="text-md text-gray-400 mb-4">
                             <strong>Tech:</strong> {p.tech.join(", ")}
                         </p>
+
                         <a
                             href={p.link}
                             target="_blank"

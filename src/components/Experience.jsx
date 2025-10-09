@@ -59,7 +59,7 @@ export default function Experience() {
                             </ul>
 
                             <div className="pt-3 border-t border-gray-700/50">
-                                <p className="text-xs text-gray-500">
+                                <p className="text-sm text-gray-500">
                                     <strong className="text-gray-400">
                                         Stack:
                                     </strong>{" "}

@@ -10,6 +10,14 @@ export default function Hero() {
     return (
         <section className="min-h-screen flex items-center justify-center px-6 pt-20">
             <div className="text-center space-y-6 animate-fade-in">
+                <div className="flex justify-center">
+                    <img
+                        src="/my-portfolio/src/assets/Orla.jpg"
+                        alt="Jaime Andrés"
+                        className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover object-top  border-4 border-blue-500/40 shadow-lg shadow-blue-500/20 mb-6"
+                    />
+                </div>
+
                 <div className="inline-block px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-full text-blue-400 text-sm mb-4">
                     <Code className="inline w-4 h-4 mr-2" />
                     {t.role}
