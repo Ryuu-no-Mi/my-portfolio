@@ -67,7 +67,9 @@ export const content = {
                     desc: "Sistema completo de gestión y control de presencia empresarial con autenticación JWT, roles de usuario y dashboard administrativo para reportes y estadísticas.",
                     tech: [".NET", "Vue.js", "SQL Server", "JWT", "Pagination"],
                     link: "https://github.com/Ryuu-no-Mi/visitALO_Front",
-                    img: "/assets/proyecto_visitalo.png",
+                    img: `${
+                        import.meta.env.BASE_URL
+                    }/assets/proyecto_visitalo.png`,
                 },
                 {
                     name: "Gestión de Flotas",
@@ -81,7 +83,9 @@ export const content = {
                         "Pagination",
                     ],
                     link: "https://github.com/Ryuu-no-Mi/Gestion-de-flotas",
-                    img: "/assets/proyecto_gestor_de_flotas_2.jpg",
+                    img: `${
+                        import.meta.env.BASE_URL
+                    }/assets/proyecto_gestor_de_flotas_2.jpg`,
                 },
                 {
                     name: "Inmotech Backend",

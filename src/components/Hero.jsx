@@ -12,7 +12,7 @@ export default function Hero() {
             <div className="text-center space-y-6 animate-fade-in">
                 <div className="flex justify-center">
                     <img
-                        src="assets/Orla.jpg"
+                        src={`${import.meta.env.BASE_URL}assets/Orla.jpg`}
                         alt="Jaime Andrés"
                         className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover object-top  border-4 border-blue-500/40 shadow-lg shadow-blue-500/20 mb-6"
                     />
