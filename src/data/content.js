@@ -69,7 +69,7 @@ export const content = {
                     link: "https://github.com/Ryuu-no-Mi/visitALO_Front",
                     img: `${
                         import.meta.env.BASE_URL
-                    }/assets/proyecto_visitalo.png`,
+                    }assets/proyecto_visitalo.png`,
                 },
                 {
                     name: "Gestión de Flotas",
@@ -85,7 +85,7 @@ export const content = {
                     link: "https://github.com/Ryuu-no-Mi/Gestion-de-flotas",
                     img: `${
                         import.meta.env.BASE_URL
-                    }/assets/proyecto_gestor_de_flotas_2.jpg`,
+                    }assets/proyecto_gestor_de_flotas_2.jpg`,
                 },
                 {
                     name: "Inmotech Backend",
